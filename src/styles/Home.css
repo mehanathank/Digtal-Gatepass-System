@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-content h1 {
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  margin-bottom: 3rem;
+}
+
+.role-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.role-card {
+  background: white;
+  padding: 2.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
+
+.role-card h3 {
+  margin-bottom: 1rem;
+}
+
+.role-card p {
+  margin-bottom: 0;
+}

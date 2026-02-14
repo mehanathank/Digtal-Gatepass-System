@@ -1,0 +1,159 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+}
+
+.dashboard-header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  padding: 0.8rem 1.5rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.action-btn.success {
+  background: #27ae60;
+}
+
+.dashboard-content {
+  background: white;
+  padding: 2rem;
+  border: 1px solid #ccc;
+}
+
+.pass-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pass-card {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+}
+
+.pass-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.status-badge {
+  padding: 0.4rem 1rem;
+}
+
+.status-badge.pending {
+  background: #fff3cd;
+}
+
+.status-badge.approved {
+  background: #d4edda;
+}
+
+.status-badge.rejected {
+  background: #f8d7da;
+}
+
+.status-badge.used {
+  background: #d1ecf1;
+}
+
+.pass-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  margin-bottom: 0.3rem;
+}
+
+.pass-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.approve-btn,
+.reject-btn,
+.verify-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: #27ae60;
+  color: white;
+}
+
+.reject-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.verify-btn {
+  background: #3498db;
+  color: white;
+}
+
+.success-message {
+  background: #d4edda;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c3e6cb;
+}
+
+.error-message {
+  background: #f8d7da;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #f5c6cb;
+}
+
+.verify-section {
+  margin-bottom: 2rem;
+}
+
+.verify-input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.verify-input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+}

@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "username": "arun",
+      "password": "arun123",
+      "name": "Arun Kumar",
+      "rollNumber": "CSE101",
+      "department": "Computer Science",
+      "year": "2nd Year"
+    },
+    {
+      "id": "S002",
+      "username": "priya",
+      "password": "priya123",
+      "name": "Priya Sharma",
+      "rollNumber": "ECE205",
+      "department": "Electronics",
+      "year": "3rd Year"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T001",
+      "username": "rajesh",
+      "password": "rajesh123",
+      "name": "Mr. Rajesh",
+      "email": "rajesh@college.com",
+      "department": "Computer Science"
+    }
+  ],
+  "watchmen": [
+    {
+      "id": "W001",
+      "username": "security",
+      "password": "security123",
+      "name": "Security Kumar"
+    }
+  ]
+}

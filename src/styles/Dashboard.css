@@ -5,14 +5,20 @@
 }
 
 .dashboard-header {
-  background: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 2rem;
   margin-bottom: 2rem;
-  border: 1px solid #ccc;
+  border: 1px solid #5a67d8;
+  color: white;
 }
 
 .dashboard-header h2 {
   margin-bottom: 0.5rem;
+  color: white;
+}
+
+.dashboard-header p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .dashboard-actions {
@@ -63,19 +69,27 @@
 }
 
 .status-badge.pending {
-  background: #fff3cd;
+  background: #ffc107;
+  color: #000;
+  font-weight: bold;
 }
 
 .status-badge.approved {
-  background: #d4edda;
+  background: #28a745;
+  color: white;
+  font-weight: bold;
 }
 
 .status-badge.rejected {
-  background: #f8d7da;
+  background: #dc3545;
+  color: white;
+  font-weight: bold;
 }
 
 .status-badge.used {
-  background: #d1ecf1;
+  background: #17a2b8;
+  color: white;
+  font-weight: bold;
 }
 
 .pass-details {
